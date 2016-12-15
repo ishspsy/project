@@ -4,15 +4,26 @@
 cvx_setup
 
 %% read the data : choose one of the below five asset sets.
+
+%%% choose below for DOW30
 Daily_Adjust_Close=xlsread('DOW30.xlsx',1);
+
+%%% choose below for DAX30
 %Daily_Adjust_Close=xlsread('DAX30.xlsx',1);
+
+%%% choose below for FTSE100
 %Daily_Adjust_Close=xlsread('FTSE100.xlsx',1);
+
+%%% choose below for SP100
 %Daily_Adjust_Close=xlsread('SP100.xlsx',1);
+
+%%% choose below for SP100 with Period 2.
 %Daily_Adjust_Close=xlsread('SP100_2.xlsx',4);
 
 
 
 %% cleaing the data
+%%% initial data is collected in reverse order of time, that is the most recent date is located on the first row.
 Daily_Adjust_Close=Data_Cleaning_Initial(Daily_Adjust_Close);
 
 %% cleaning the data with three benchmarks; 1.indx, 2. equally weighted 3. GMVP

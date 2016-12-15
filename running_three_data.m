@@ -5,17 +5,22 @@ cvx_setup
 
 %% read the data with paired (nested) one: choose one of the below three asset sets
 
-Daily_Adjust_Close=xlsread('FTSE100_2.xlsx',4);
-Daily_Adjust_Close_Larger_Set=xlsread('FTSE250_2.xlsx',4);
+%%% choose below for FTSE100
+Daily_Adjust_Close=xlsread('FTSE100.xlsx',1);
+Daily_Adjust_Close_Larger_Set=xlsread('FTSE250.xlsx',1);
 
+%%% choose below for SP500 with Period 1
 %Daily_Adjust_Close=xlsread('SP100.xlsx',1);
 %Daily_Adjust_Close_Larger_Set=xlsread('SP500.xlsx',1);
 
+%%% choose below for SP500 with Period 2
 %Daily_Adjust_Close=xlsread('SP100_2.xlsx',4);
 %Daily_Adjust_Close_Larger_Set=xlsread('SP500_2.xlsx',4);
 
 
 %% cleaing the data
+%%% initial data is collected in reverse order of time, that is the most recent date is located on the first row.
+
 Daily_Adjust_Close=Data_Cleaning_Initial(Daily_Adjust_Close);
 Daily_Adjust_Close_Larger_Set=Data_Cleaning_Initial(Daily_Adjust_Close_Larger_Set);
 
