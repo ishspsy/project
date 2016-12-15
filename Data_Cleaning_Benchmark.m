@@ -1,0 +1,6 @@
+function Daily_Adjust_Close_Benchmark=Data_Cleaning_Benchmark(Daily_Adjust_Close)
+
+Daily_Adjust_Close_Benchmark=Daily_Adjust_Close;
+
+end
+
