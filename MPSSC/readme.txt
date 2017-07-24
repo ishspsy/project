@@ -8,7 +8,7 @@ SK_normalize.m: Perform SK algorithm to obtain a doubly stochastic matrix (Step 
 clus_sim_update0_2.m: ADMM algorithm (Step 2).
 clus_sim_update2_2.m: An iterative algorithm solving the proposed biconvex problem (Step 2).
 clus_sim_update0_3.m: ADMM algorithm (Step 3).
-working_file.m: Example
+main_working.m: Example
 
 
 Contact the Author 

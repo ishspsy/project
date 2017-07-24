@@ -1,5 +1,5 @@
 
-function  [rep, W, P, Q]=clus_sim_update2_2(CCC, c, lam2, rho, lam,id, eta,W_euc_double)   % W_euc_nearest_double
+function  [rep, W, P, Q]=clus_sim_update2_2(CCC, c, rho, lam,id, eta,W_euc_double)   % W_euc_nearest_double
    
 n=size(W_euc_double{1},1); [p,q]=size(W_euc_double);
 
@@ -36,7 +36,7 @@ end
 %W=0.3*Wi+0.7*W;
 
 kernel_ini=0;  
-for ii=1:(p*q) ;
+for ii=1:(p*q);
     kernel_ini=kernel_ini+W_euc_double{ii}*W(ii);
 end
 
