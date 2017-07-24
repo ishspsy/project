@@ -1,4 +1,11 @@
 function [label, center, bCon, sumD, D] = litekmeans(X, k, varargin)
+
+
+%%The code is published in BatzoglouLabSU/SIMLR.
+%	Copyright (c) Bo Wang and Daniele Ramazzotti (2016-2017)
+%  email: bowang87@stanford.edu
+
+
 %LITEKMEANS K-means clustering, accelerated by matlab matrix operations.
 %
 %   label = LITEKMEANS(X, K) partitions the points in the N-by-P data matrix

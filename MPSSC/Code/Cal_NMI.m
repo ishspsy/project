@@ -1,3 +1,10 @@
+%%The code is published in BatzoglouLabSU/SIMLR.
+%	Copyright (c) Bo Wang and Daniele Ramazzotti (2016-2017)
+%  email: bowang87@stanford.edu
+
+
+
+
 function score = Cal_NMI(true_labels, cluster_labels)
 
 true_labels = double(true_labels);

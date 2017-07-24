@@ -1,3 +1,7 @@
+%%The code is published in BatzoglouLabSU/SIMLR.
+%	Copyright (c) Bo Wang and Daniele Ramazzotti (2016-2017)
+%  email: bowang87@stanford.edu
+
 function [eigvec, eigval, eigval_full] = eig1(A, c, isMax, isSym)
 
 if nargin < 2

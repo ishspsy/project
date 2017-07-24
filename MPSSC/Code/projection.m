@@ -17,7 +17,7 @@ function [x]=projection(y0,k)
 %   Weiran Wang: "Projection onto the capped simplex". 
 %     March 3, 2015, arXiv:1503.01002.
 % 
-% Weiran Wang. 03/03/2015.
+% (c) Weiran Wang. 03/03/2015.
 
 n=length(y0);
 x=zeros(n,1);
