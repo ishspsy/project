@@ -1,6 +1,7 @@
 function [P2,perf_fin] = clus_fin_update(rho, lam, lam2, eta, c, X, true_labs, cases)
+%clus_fin_update(rho, lam, lam2, eta, c, X, true_labs, cases)
 
-[W_euc_double, id]= func_doubly(X); [n,p]=size(X);
+[W_euc_double, id]= func_doubly(X, cases); [n,p]=size(X);
 CCC=max(true_labs);
 
 [rep, W, P, Q]=clus_sim_update2_2(CCC, c, rho, lam, id, eta, W_euc_double) ;
@@ -12,7 +13,7 @@ pu11=purity(CCC, clus_dou1, true_labs);  pu22=purity(CCC, clus01, true_labs);
 perf_fin=[nmi11, nmi22;pu11,pu22; RandIndex(clus_dou1,true_labs),RandIndex(clus01,true_labs) ]';
 
 
-function [W_euc_double, id]= func_doubly(X);
+function [W_euc_double, id]= func_doubly(X, cases);
 [n,p]=size(X);
 sigma_set=1:0.25:2;  k_set=10:2:30; 
 W_euc_orig=pdist(X); W_euc0=squareform(W_euc_orig);

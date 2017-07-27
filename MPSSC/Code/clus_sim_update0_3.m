@@ -1,5 +1,6 @@
 
 function  [rep, P, Q, Gamma]=clus_sim_update0_3(CCC, lam2, eta, kernel_ini)  
+%clus_sim_update0_3(CCC, lam2, eta, V*V')
 
 n=size(kernel_ini,1); 
 
