@@ -2,13 +2,19 @@
 
 MPSSC: Using Multiple kernels with pairwise and element-wise sparse spectral clustering  
 
-## Getting Started
+## Overview
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+MPSSC is a novel spectral clustering framework that imposes sparse structures on a target matrix. Specifically,it utilizes a doubly stochastic affinity matrix to construct a normalized graph Laplacian. Then, it imposes a sparse structure on the target matrix followed by shrinking pairwise differences of the rows in the target matrix. This spectral clustering method uses multiple similarity matrices via non-convex optimization framework. The proposed non-convex problem iteratively using the ADMM algorithm.
 
-### Prerequisites
+### Main functions
 
-What things you need to install the software and how to install them
+SK_normalize.m: Perform SK algorithm to obtain a doubly stochastic matrix (Step 1).
+clus_sim_update0_2.m: ADMM algorithm (Step 2).
+clus_sim_update2_2.m: An iterative algorithm solving the proposed biconvex problem (Step 2).
+clus_sim_update0_3.m: ADMM algorithm (Step 3).
+run_real_data_results.m: Example (small-scale scRNA-seq data sets)
+run_real_data_results_large.m: Example (large-scale scRNA-seq data sets)
+
 
 ```
 Give examples
@@ -72,9 +78,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Seyoung Park**    **Hongyu Zhao**
 
 ## License
 
