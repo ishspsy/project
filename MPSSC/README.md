@@ -77,19 +77,6 @@ Specifically, the codes of *SIMLR* refers to https://github.com/BatzoglouLabSU/S
 
 
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
