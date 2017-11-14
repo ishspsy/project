@@ -31,21 +31,23 @@ Example:
 
 clear all
 addpath(genpath(pwd))
+
 load('Final_Data_Deng.mat')
+% Each data contains in_X and true_labs, where in_X is an n by p matrix and true_labs is the ground truth
 
 rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;  
 
-% Run MPSSC
+% Run MPSSC and obtain the target matrix P
 [P] = clus_fin_update(rho, lam, lam2, eta, c, in_X, true_labs); 
 
-% Obtain clustering labels *clus_dou* and NMI:
-[nmi, ~,clus_dou,~]=calc2_nmis(CCC, double(P),true_labs) ;   
+% Obtain clustering labels clus_labs and NMI:
+[nmi, ~,clus_labs,~]=calc2_nmis(CCC, double(P),true_labs) ;   
 
 % Purity
-purity=purity(CCC, clus_dou, true_labs)
+purity=purity(CCC, clus_labs, true_labs)
 
 % ARI
-ari=RandIndex(clus_dou,true_labs)
+ari=RandIndex(clus_labs,true_labs)
 
 ```
 
