@@ -9,10 +9,15 @@ MPSSC is a novel spectral clustering framework that imposes sparse structures on
 ### Main functions
 
 SK_normalize.m: Perform SK algorithm to obtain a doubly stochastic matrix (Step 1).
+
 clus_sim_update0_2.m: ADMM algorithm (Step 2).
+
 clus_sim_update2_2.m: An iterative algorithm solving the proposed biconvex problem (Step 2).
+
 clus_sim_update0_3.m: ADMM algorithm (Step 3).
+
 run_real_data_results.m: Example (small-scale scRNA-seq data sets)
+
 run_real_data_results_large.m: Example (large-scale scRNA-seq data sets)
 
 
