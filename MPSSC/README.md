@@ -35,7 +35,7 @@ load('Final_Data_Deng.mat')
 
 rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;  
 
-% Run *MPSSC*
+% Run MPSSC
 [P] = clus_fin_update(rho, lam, lam2, eta, c, in_X, true_labs); 
 
 % Obtain clustering labels *clus_dou* and NMI:
