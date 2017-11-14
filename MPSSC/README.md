@@ -25,9 +25,27 @@ run_real_data_results_large.m: Example (large-scale scRNA-seq data sets)
 Give examples
 ```
 
-### Installing
+### Codes
 
-A step by step series of examples that tell you have to get a development env running
+All the functions used in the proposed algorithm are located in the directory "Functions".
+
+All the matlab codes related to generating plots shown in the manuscript are located in the directory "Working_m_files".
+
+All the resulting files such as MAT and eps are located in the directory "Results_files".
+
+The nine scRNA-seq data sets used in the manuscript are located in the directory "Data_files".
+
+
+
+The remainning directories:
+
+"SIMLR-SIMLR" includes all the files related to SIMLR.
+
+"SparseSC"  includes all the files related to Sparse clustering (SC).
+
+"tSNE"  includes all the files related to t-SNE.
+
+
 
 Say what the step will be
 
