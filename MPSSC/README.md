@@ -74,6 +74,15 @@ The remainning directories:
 Specifically, the codes of *SIMLR* refers to https://github.com/BatzoglouLabSU/SIMLR, *SparseSC* refers to https://github.com/canyilu/LibADMM, and *tSNE* refers to https://lvdmaaten.github.io/tsne/.
 
 
+## Example data sets
+
+The 9 example datasets are provided in the directory *Data_files*. 
+
+Specifically, the dataset of Final_Data_Deng.mat refers to http://science.sciencemag.org/content/343/6167/193, 
+Final_Data_Ting.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25242334, Final_Data_Treutlin.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/24739965, Ginhoux_GEO_mod.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26054720,
+Test_1_mECS.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25599176, Test_3_Pollen.mat refers to https://www.nature.com/articles/nbt.2967.
+
+Moreover, for the large scale example, the dataset of Zelsel.RData refers to https://www.ncbi.nlm.nih.gov/pubmed/25700174. 
 
 
 
