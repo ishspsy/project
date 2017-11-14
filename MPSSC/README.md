@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+MPSSC: Using Multiple kernels with pairwise and element-wise sparse spectral clustering  
 
 ## Getting Started
 
