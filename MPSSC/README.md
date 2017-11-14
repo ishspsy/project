@@ -1,6 +1,6 @@
-# Project Title
+# MPSSC: Spectral clustering based on learning similarity matrix
 
-MPSSC: Using Multiple kernels with pairwise and element-wise sparse spectral clustering  
+
 
 ## Overview
 
@@ -110,7 +110,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Seyoung Park**    **Hongyu Zhao**
+* **Seyoung Park** and   **Hongyu Zhao**
 
 ## License
 
