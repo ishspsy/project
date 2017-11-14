@@ -11,6 +11,38 @@ clus_sim_update0_3.m: ADMM algorithm (Step 3).
 main_working.m: Example
 
 
+Example:
+
+clear all
+addpath(genpath(pwd))
+load('Final_Data_Deng.mat')
+rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;  
+[P2] = clus_fin_update(rho, lam, lam2, eta, c, in_X, true_labs); 
+
+%% calculate the three metrics
+
+% NMI
+[nmi, ~,clus_dou,~]=calc2_nmis(CCC, double(P2),true_labs) ;   
+nmi
+% Purity
+purity=purity(CCC, clus_dou, true_labs)
+% ARI
+ari=RandIndex(clus_dou,true_labs)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Contact the Author 
 Author: Seyoung Park and Hongyu Zhao
 Email: seyoung.park@yale.edu
