@@ -4,7 +4,7 @@ MPSSC: Using Multiple kernels with pairwise and element-wise sparse spectral clu
 
 ## Overview
 
-MPSSC is a novel spectral clustering framework that imposes sparse structures on a target matrix. Specifically,it utilizes a doubly stochastic affinity matrix to construct a normalized graph Laplacian. Then, it imposes a sparse structure on the target matrix followed by shrinking pairwise differences of the rows in the target matrix. This spectral clustering method uses multiple similarity matrices via non-convex optimization framework. The proposed non-convex problem iteratively using the ADMM algorithm.
+*MPSSC* is a novel spectral clustering framework that imposes sparse structures on a target matrix. Specifically,it utilizes a doubly stochastic affinity matrix to construct a normalized graph Laplacian. Then, it imposes a sparse structure on the target matrix followed by shrinking pairwise differences of the rows in the target matrix. This spectral clustering method uses multiple similarity matrices via non-convex optimization framework. The proposed non-convex problem iteratively using the ADMM algorithm.
 
 ### Main functions
 
@@ -36,7 +36,7 @@ All the functions used in the proposed algorithm are located in the directory "F
 
 All the matlab codes related to generating plots shown in the manuscript are located in the directory "Working_m_files".
 
-All the resulting files such as MAT and eps are located in the directory "Results_files".
+All the resulting files such as MAT and eps types are located in the directory "Results_files".
 
 The nine scRNA-seq data sets used in the manuscript are located in the directory "Data_files".
 
@@ -44,11 +44,15 @@ The nine scRNA-seq data sets used in the manuscript are located in the directory
 
 The remainning directories:
 
-"SIMLR-SIMLR" includes all the files related to SIMLR.
+"SIMLR" includes all the files related to *SIMLR*.
 
-"SparseSC"  includes all the files related to Sparse clustering (SC).
+"SparseSC"  includes all the files related to Sparse spectral clustering (*SSC*).
 
-"tSNE"  includes all the files related to t-SNE.
+"tSNE"  includes all the files related to *t-SNE*.
+
+Specifically, the codes of *SIMLR* refers to https://github.com/BatzoglouLabSU/SIMLR, *SparseSC* refers to https://github.com/canyilu/LibADMM, and *tSNE* refers to https://lvdmaaten.github.io/tsne/.
+
+
 
 
 
