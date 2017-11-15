@@ -71,7 +71,7 @@ ARI0=RandIndex(clus_labs0,true_labs)
 
 ### Directory
 
-All the functions used in the proposed algorithm are located in the directory "Functions".
+All the functions used in the proposed algorithm are located in the directory "Code".
 
 All the matlab functions related to generating plots shown in the manuscript are located in the directory "Working_m_files".
 
