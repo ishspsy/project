@@ -59,7 +59,7 @@ All the functions used in the proposed algorithm are located in the directory "F
 
 All the matlab codes related to generating plots shown in the manuscript are located in the directory "Working_m_files".
 
-All the resulting files such as MAT and eps types are located in the directory "Results_files".
+All the resulting files such as .MAT and .eps types are located in the directory "Results_files".
 
 The nine scRNA-seq data sets used in the manuscript are located in the directory "Data_files".
 
