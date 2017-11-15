@@ -73,17 +73,17 @@ ARI0=RandIndex(clus_labs0,true_labs)
 
 All the functions used in the proposed algorithm are located in the directory "Code".
 
-All the matlab functions related to generating plots shown in the manuscript are located in the directory "Working_m_files".
+All the other important matlab functions are located in the directory "Working_m_files".
 
-All the codes generating figures shown in the manuscript are located in the directory "Figure_generate"
+All the codes generating figures shown in the manuscript are located in the directory "Working_m_files/Figure_generate"
 
-All the resulting files such as .MAT and .eps types are located in the directory "Results_files".
+All the resulting files (e.g. .MAT and .eps) are located in the directory "Results_files".
 
 The nine scRNA-seq data sets used in the manuscript are located in the directory "Data_files".
 
 
 
-The remainning directories:
+The other directories:
 
 "SIMLR" includes all the files related to *SIMLR*.
 
