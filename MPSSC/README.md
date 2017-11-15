@@ -4,7 +4,7 @@
 
 ## Overview
 
-*MPSSC* is a novel spectral clustering framework that imposes sparse structures on a target matrix. Specifically, it utilizes a doubly stochastic affinity matrix to construct a normalized graph Laplacian. Then, it imposes a sparse structure on the target matrix followed by shrinking pairwise differences of the rows in the target matrix. This spectral clustering method uses multiple similarity matrices via non-convex optimization framework. The proposed non-convex problem iteratively using the ADMM algorithm.
+*MPSSC* is a novel spectral clustering framework that imposes sparse structures on a target matrix. Specifically, it utilizes multiple doubly stochastic affinity matrices to construct a normalized graph Laplacian (Step 1). Then, it imposes a sparse structure on the target matrix (Step 2) followed by shrinking pairwise differences of the rows in the target matrix (Step 3). This spectral clustering method uses multiple similarity matrices via non-convex optimization framework. *MPSSC* solves the proposed non-convex problem iteratively with the embedded ADMM algorithm.
 
 ### Main functions
 
