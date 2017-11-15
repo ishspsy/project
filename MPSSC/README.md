@@ -38,22 +38,25 @@ addpath(genpath(pwd))
 
 load('Data_Deng.mat')
 % Each data contains in_X and true_labs, where in_X is an n by p gene expression matrix and true_labs is 
-the ground truth, where n and p are number of cells and genes, respectively.
+the ground truth labels, where n and p are number of cells and genes, respectively.
 
-% We suggest to use the following specification in implementation
+% We suggest to use the following specification in implementation:
 rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;  
 
 % Run MPSSC and obtain the target matrix P
 [P] = clus_fin_update(rho, lam, lam2, eta, c, in_X, true_labs); 
 
 % Obtain clustering labels clus_labs and NMI:
-[nmi, ~,clus_labs,~]=calc2_nmis(CCC, double(P),true_labs) ;   
+[NMI, ~,clus_labs,~]=calc2_nmis(CCC, double(P),true_labs) ;   
+
+% NMI
+NMI
 
 % Purity
-purity=purity(CCC, clus_labs, true_labs)
+Purity=purity(CCC, clus_labs, true_labs)
 
 % ARI
-ari=RandIndex(clus_labs,true_labs)
+ARI=RandIndex(clus_labs,true_labs)
 
 ```
 
@@ -104,56 +107,14 @@ Data_Macosko.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26000488.
 
 
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Seyoung Park** and   **Hongyu Zhao**
+
 
 ## License
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
