@@ -80,12 +80,23 @@ Specifically, the codes of *SIMLR* refers to https://github.com/BatzoglouLabSU/S
 
 The 9 example datasets are provided in the directory *Data_files*. 
 
-Specifically, the dataset of Data_Deng.mat refers to http://science.sciencemag.org/content/343/6167/193, 
-Data_Ting.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25242334, Data_Treutlin.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/24739965, Data_Ginhoux.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26054720,
-Data_Buettner.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25599176, and Data_Pollen.mat refers to https://www.nature.com/articles/nbt.2967. 
+Specifically, the dataset of Data_Deng.mat refers to http://science.sciencemag.org/content/343/6167/193.
 
-For the large scale data, Data_Zeisel.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25700174, 
-Data_Tasic.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26727548, and Data_Macosko.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26000488.
+Data_Ting.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25242334. 
+
+Data_Treutlin.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/24739965. 
+
+Data_Ginhoux.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26054720.
+
+Data_Buettner.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25599176. 
+
+Data_Pollen.mat refers to https://www.nature.com/articles/nbt.2967. 
+
+For the large scale data, Data_Zeisel.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25700174.
+
+Data_Tasic.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26727548. 
+
+Data_Macosko.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26000488.
 
 
 
