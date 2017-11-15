@@ -36,6 +36,7 @@ load('Final_Data_Deng.mat')
 % Each data contains in_X and true_labs, where in_X is an n by p gene expression matrix and true_labs is 
 the ground truth, where n and p are number of cells and genes, respectively.
 
+% We suggest to use the following specification in implementation
 rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;  
 
 % Run MPSSC and obtain the target matrix P
