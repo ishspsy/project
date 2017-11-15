@@ -8,14 +8,18 @@
 
 ### Main functions
 
-SK_normalize.m: Perform SK algorithm to obtain a doubly stochastic matrix (Step 1).
+clus_fin_update.m:   MPSSC algorithm (with similarity learning) consisting of the three steps.
 
-clus_sim_update0_2.m: ADMM algorithm (Step 2).
+clus_fin_update_no_learning.m:   PSSC algorithm (without similarity learning). 
 
-clus_sim_update2_2.m: An iterative algorithm solving the proposed biconvex problem (Step 2).
+func_doubly.m:  Contruct multiple doubly stochastic similarity matrices using Gaussian kernels (Step 1).
 
-clus_sim_update0_3.m: ADMM algorithm (Step 3).
+clus_sim_update2_2.m:  Obtain the intermediae target matrix involving ADMM (Step 2).
 
+clus_sim_update0_3.m:  Obtain the final target matrix involving ADMM (Step 3)
+
+
+### Example files
 run_real_data_results.m: Example (small-scale scRNA-seq data sets)
 
 run_real_data_results_large.m: Example (large-scale scRNA-seq data sets)
