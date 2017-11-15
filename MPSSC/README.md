@@ -32,7 +32,7 @@ Example:
 clear all
 addpath(genpath(pwd))
 
-load('Final_Data_Deng.mat')
+load('Data_Deng.mat')
 % Each data contains in_X and true_labs, where in_X is an n by p gene expression matrix and true_labs is 
 the ground truth, where n and p are number of cells and genes, respectively.
 
@@ -145,7 +145,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
