@@ -8,9 +8,9 @@
 
 ### Main functions
 
-clus_fin_update.m:   MPSSC algorithm (with similarity learning) consisting of the three steps.
+clus_fin_update.m:   Main *MPSSC* algorithm (with similarity learning) consisting of the three steps.
 
-clus_fin_update_no_learning.m:   PSSC algorithm (without similarity learning). 
+clus_fin_update_no_learning.m:  Main *PSSC* algorithm (without similarity learning). 
 
 func_doubly.m:  Contruct multiple doubly stochastic similarity matrices using Gaussian kernels (Step 1).
 
@@ -37,7 +37,7 @@ clear all
 addpath(genpath(pwd))
 
 load('Data_Deng.mat')
-% Each data contains in_X and true_labs, where in_X is an n by p gene expression matrix and true_labs is 
+%Note: Each data contains in_X and true_labs, where in_X is an n by p gene expression matrix and true_labs is 
 the ground truth labels, where n and p are number of cells and genes, respectively.
 
 % We suggest to use the following specification in implementation:
@@ -69,7 +69,7 @@ ARI0=RandIndex(clus_labs0,true_labs)
 
 ```
 
-### Codes
+### Directory
 
 All the functions used in the proposed algorithm are located in the directory "Functions".
 
@@ -92,6 +92,7 @@ The remainning directories:
 "tSNE"  includes all the files related to *t-SNE*.
 
 Specifically, the codes of *SIMLR* refers to https://github.com/BatzoglouLabSU/SIMLR, *SparseSC* refers to https://github.com/canyilu/LibADMM, and *tSNE* refers to https://lvdmaaten.github.io/tsne/.
+
 
 
 ## Example data sets
