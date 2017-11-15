@@ -115,6 +115,10 @@ Data_Tasic.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26727548.
 Data_Macosko.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26000488.
 
 
+**DOWNLOAD**
+
+We provide MATLAB implementations of *MPSSC* in the MPSSC branch.
+
 
 ## Authors
 
