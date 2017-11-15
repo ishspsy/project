@@ -43,20 +43,34 @@ the ground truth labels, where n and p are number of cells and genes, respective
 % We suggest to use the following specification in implementation:
 rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;  
 
-% Run MPSSC and obtain the target matrix P
+%% Run MPSSC and obtain the target matrix P
 [P] = clus_fin_update(rho, lam, lam2, eta, c, in_X, true_labs); 
 
-% Obtain clustering labels clus_labs and NMI:
-[NMI, ~,clus_labs,~]=calc2_nmis(CCC, double(P),true_labs) ;   
+%% Run PSSC and obtain the target matrix P0
+[P0] = clus_fin_update_no_learning(rho, lam, lam2, eta, c, in_X, true_labs);
+
+
+% Obtain clustering labels clus_labs (MPSSC) and clus_labs0 (PSSC):
+[NMI, ~,clus_labs,~]=calc2_nmis(CCC, double(P),true_labs);   
+[NMI0, ~,clus_labs0,~]=calc2_nmis(CCC, double(P0),true_labs);   
 
 % NMI
 NMI
+NMI0
 
 % Purity
 Purity=purity(CCC, clus_labs, true_labs)
+Purity0=purity(CCC, clus_labs0, true_labs)
 
 % ARI
 ARI=RandIndex(clus_labs,true_labs)
+ARI0=RandIndex(clus_labs0,true_labs)
+
+% Performances of MPSSC
+[NMI, Purity, ARI]
+% Performances of PSSC
+[NMI0, Purity0, ARI0]
+
 
 ```
 
