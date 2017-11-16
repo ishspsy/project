@@ -1,5 +1,6 @@
 %% Robust test for simulation model 1
 
+addpath(genpath(pwd))
 
 clear all
 rng(1028)
