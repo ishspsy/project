@@ -1,7 +1,7 @@
 %% generate figures related to three larger-scale scRNA-seq data sets
 %% All the loading files can be generated in running_large_scRNA (Fig5).m
 
-
+addpath(genpath(pwd))
 %% Figure 5
 rng(100)
 method_title={'SC', 'SSC', 'KM','PCA','tSNE','SIMLR', 'PSSC', 'MPSSC'};
