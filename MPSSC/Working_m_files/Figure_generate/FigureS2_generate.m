@@ -5,7 +5,7 @@ addpath(genpath(pwd))
 
 
 clf;
-%% Pollen   % similar when 15   goodt
+%% Pollen   
 clear all
 load('Data_Pollen.mat')
 eigen_gap_part
@@ -19,7 +19,7 @@ htext.FontSize=18;
 xlim([1 15]); ylim([0 1.2])
 vtt=vline(11, 'k--', 'C=11'); vtt.MarkerSize=15;
 
-%% Deng data   7  not bad  goodt
+%% Deng data  
 load('Data_Deng.mat')
 eigen_gap_part
 subplot(3,2,2)  
@@ -32,7 +32,7 @@ xlim([1 15]); ylim([0 1.2])
 vtt=vline(7, 'k--', 'C=7'); vtt.MarkerSize=15;
 
 
-%% Ginhoux data  3   goodt
+%% Ginhoux data  
 load('Data_Ginhoux.mat')
 eigen_gap_part
 subplot(3,2,3)  
@@ -45,7 +45,7 @@ xlim([1 15]); ylim([0 1.2])
 vtt=vline(3, 'k--', 'C=3'); vtt.MarkerSize=15;
 
 
-%% Ting data  5  okay 15   goodt
+%% Ting data  
 load('Data_Ting.mat')
 eigen_gap_part
 subplot(3,2,4)  
@@ -58,7 +58,7 @@ xlim([1 15]); ylim([0 1.2])
 vtt=vline(5, 'k--', 'C=5'); vtt.MarkerSize=15;
 
 
-%% Treutlin data 5  okay 15   goodt
+%% Treutlin data
 load('Data_Treutlin.mat')
 eigen_gap_part
 subplot(3,2,5)  
@@ -71,7 +71,7 @@ xlim([1 15]); ylim([0 1.2])
 vtt=vline(5, 'k--', 'C=5'); vtt.MarkerSize=15;
 
 
-%% Buettner data 3    goodt
+%% Buettner data 
 load('Data_Buettner.mat') 
 eigen_gap_part
 subplot(3,2,6)  
