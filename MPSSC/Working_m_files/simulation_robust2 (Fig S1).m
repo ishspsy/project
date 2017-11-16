@@ -1,3 +1,6 @@
+addpath(genpath(pwd))
+
+
 clear all
 rng(1028)
 
