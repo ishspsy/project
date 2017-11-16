@@ -73,7 +73,7 @@ ARI=RandIndex(clus_labs,true_labs)
 
 Please follow the links to briefly walk you through the functions of *MPSSC*
 
--   [Real data](Working_m_files/Figure_generate/run_real_data (Figure 4,6, S3, S5-S10).m)
+-   [Real data](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_small_scRNA%20(Fig4%2C6).m)
 
 
 
