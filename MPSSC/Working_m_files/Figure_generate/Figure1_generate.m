@@ -1,6 +1,9 @@
 %%%% making plots for comparisions between doubly stochastic and regular affinity matrices (Fig 1)
 %% Refer running_doubly_vs_regular (Fig1).m for generating loading files
 
+addpath(genpath(pwd))
+
+
 % load the saved file (See running_doubly_vs_regular (Fig1).m for generating this file)
 load('doubly_vs_reg_case1_1028.mat')
 
