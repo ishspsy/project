@@ -1,4 +1,4 @@
-%%%% Genereating Figure S2.
+%%%% Genereating Figure S3.
 
 clear all
 addpath(genpath(pwd))
