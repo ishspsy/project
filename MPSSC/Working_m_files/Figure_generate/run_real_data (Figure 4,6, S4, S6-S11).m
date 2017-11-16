@@ -123,7 +123,7 @@ end
 print -depsc real_data_computation 
 
 
-%% Figure S3
+%% Figure S4
 clf
 for i=1:6
 load([dataname{i} '_results1102']);    
@@ -169,7 +169,7 @@ print -depsc real_data_purity
 
 
 
-%% Figure S5-S10
+%% Figure S6-S11
 
 dataset = {'Pollen', 'Buettner', 'Ginhoux', 'Deng', 'Ting','Treutlin'}            
 %load([dataset{i} '_robust_lam' ]);
