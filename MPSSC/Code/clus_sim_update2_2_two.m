@@ -17,7 +17,7 @@ rep=0;
 while  (err>0.01) + (rep<100) >1
 rep=rep+1;
 
-[rep0, P, Q, Gamma]=clus_sim_update0_2(CCC, c, rho, lam, id, eta, kernel_ini);
+[rep0, P, Q, Gamma]=clus_sim_update0_2(CCC, c, lam, id, eta, kernel_ini);
 
 %update W
 W0=zeros(1,pq); W=zeros(1,pq);
