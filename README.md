@@ -57,14 +57,14 @@ rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;
 [P0] = clus_fin_update_no_learning(rho, lam, lam2, eta, c, in_X, true_labs);
 
 %% Obtain clustering labels clus_labs (MPSSC) and clus_labs0 (PSSC), and compute NMI measure:
-[NMI, ~,clus_labs,~]=calc2_nmis(CCC, double(P),true_labs);   
-[NMI0, ~,clus_labs0,~]=calc2_nmis(CCC, double(P0),true_labs);   
+[NMI, ~,clus_labs,~]=calc2_nmis(max(true_labs), double(P),true_labs);   
+[NMI0, ~,clus_labs0,~]=calc2_nmis(max(true_labs), double(P0),true_labs);   
 
 
 %% Compute performance measures
 % Compute Purity
-Purity=purity(CCC, clus_labs, true_labs)
-Purity0=purity(CCC, clus_labs0, true_labs)
+Purity=purity(max(true_labs), clus_labs, true_labs)
+Purity0=purity(max(true_labs), clus_labs0, true_labs)
 
 % Compute ARI
 ARI=RandIndex(clus_labs,true_labs)
