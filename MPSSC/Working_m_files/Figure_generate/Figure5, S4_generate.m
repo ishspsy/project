@@ -38,6 +38,7 @@ valtot=[method_title;  num2cell(valtot)]
 valtot_set{3}=valtot;
 
 
+clear vars title
 
 clf
 for i=1:3
