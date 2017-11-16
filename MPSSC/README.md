@@ -67,12 +67,6 @@ ARI=RandIndex(clus_labs,true_labs)
 [NMI, Purity, ARI]
 
 
-%% Visualization of data
-ydata = tsne_p_bo(P);  
-
-clf
-gscatter(ydata(:,1), ydata(:,2), true_labs,'brgmk','.xo>+^<',7,'off') 
-
 ```
 
 ### Directory
