@@ -1,6 +1,7 @@
 %% generating Figure S1
 %% Refer simulation_robust2 (Fig S1).m and simulation_robust1 (Fig S1).m
 
+addpath(genpath(pwd))
 
 % loading files (See simulation_robust2 (Fig S1).m  for generating this file)
 load('robust_mcase2.mat')
