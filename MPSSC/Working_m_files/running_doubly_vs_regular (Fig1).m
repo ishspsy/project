@@ -1,5 +1,6 @@
 %% running SC algorithm with doubly stochastic and regular affinity matrix cases.
 clear all
+addpath(genpath(pwd))
 
 doubly_vs_regular_place
 
