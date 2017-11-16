@@ -18,15 +18,15 @@
 : Contruct multiple doubly stochastic similarity matrices using Gaussian kernels (Step 1).
 
 [clus_sim_update2_2.m](https://github.com/ishspsy/project/blob/master/MPSSC/Code/clus_sim_update2_2.m)
-: Obtain the intermediae target matrix involving ADMM (Step 2).
+: Obtain the intermediate target matrix involving ADMM step (Step 2).
 
 [clus_sim_update0_3.m](https://github.com/ishspsy/project/blob/master/MPSSC/Code/clus_sim_update0_3.m)
-: Obtain the final target matrix involving ADMM (Step 3).
+: Obtain the final target matrix involving ADMM step (Step 3).
 
 
 ### Example files
 
-Please follow the links to reproduce the results of real scRNA-seq data sets
+Please follow the links to reproduce the clustering results of real scRNA-seq data sets
 
 -  [small-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_small_scRNA%20(Fig4%2C6).m)
 : Generate all the results related to the six small-scale scRNA-seq data sets.
@@ -59,14 +59,14 @@ load('Data_Deng.mat')
 %genes, respectively.
 
 
-%% Penalty parameters. We suggest to use the following specification:
+%% Penalty parameters. We use the following specification:
 rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;  
 
 
 %% Run MPSSC and obtain the target matrix P
 [P] = clus_fin_update(rho, lam, lam2, eta, c, in_X, true_labs); 
 
-%% Obtain clustering labels clus_labs and compute NMI measure:
+%% Obtain clustering labels "clus_labs" and compute NMI measure:
 [NMI, ~,clus_labs,~]=calc2_nmis(max(true_labs), double(P),true_labs);   
 
 %% Compute performance measures
@@ -88,9 +88,9 @@ ARI=RandIndex(clus_labs,true_labs)
 
 All the functions used in the proposed algorithm are located in the directory ["**Code**"](https://github.com/ishspsy/project/tree/master/MPSSC/Code).
 
-All the other important matlab functions are located in the directory ["**Working_m_files**"](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files).
+All the matlab functions generating results in the manuscript are located in the directory ["**Working_m_files**"](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files).
 
-**All the codes generating figures and results shown in the manuscript are located in the directory ["**Working_m_files/Figure_generate**"](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files/Figure_generate).
+**All the codes generating figures shown in the manuscript are located in the directory ["**Working_m_files/Figure_generate**"](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files/Figure_generate).
 
 All the resulting files (e.g. .MAT and .eps) are located in the directory ["**Results_files**"](https://github.com/ishspsy/project/tree/master/MPSSC/Results_files).
 
@@ -115,7 +115,7 @@ https://arxiv.org/abs/1207.3538.
 
 ## Example data sets
 
-The 9 example datasets are provided in the directory [*Data*](https://github.com/ishspsy/project/tree/master/MPSSC/Data). 
+The 9 data sets are provided in the directory [*Data*](https://github.com/ishspsy/project/tree/master/MPSSC/Data). 
 
 Specifically, the dataset of Data_Deng.mat refers to http://science.sciencemag.org/content/343/6167/193.
 
@@ -128,6 +128,7 @@ Data_Ginhoux.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/26054720.
 Data_Buettner.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25599176. 
 
 Data_Pollen.mat refers to https://www.nature.com/articles/nbt.2967. 
+
 
 For the large scale data, Data_Zeisel.mat refers to https://www.ncbi.nlm.nih.gov/pubmed/25700174.
 
