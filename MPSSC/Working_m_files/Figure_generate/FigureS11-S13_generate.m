@@ -2,6 +2,7 @@
 %% All the loading files can be generated in running_large_scRNA (Fig5).m
 
 clear all
+addpath(genpath(pwd))
 
 
 %% Figure S11-S13
