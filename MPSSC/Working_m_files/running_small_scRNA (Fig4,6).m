@@ -19,19 +19,24 @@ load('Data_Ting.mat')
 real_data_place
 save('Ting_results1102.mat','valtot')
 
-% run MPSSC with various \lambda values for robustness check
+% run MPSSC with various \lambda values from the set [0.00001, 0.00005, 0.0001, 0.0002, 0.0005, 0.001, 0.01, 0.1] for 
+% robustness check: tot_mpssc_set and tot_mpssc_set0 are MPSSC and PSSC results, respectively.
+% e.g. tot_mpssc_set{1} is the 2 by 3 matrix, where the first, the second, and the third columns stand for NMI, Purity, 
+% and ARI of MPSSC, respectively, when \lambda=0.00001.  
+% Each row use different k-mean algorithms which generally provide the same results. We use the results in the first row.
+
 robust_generator
 save('Ting_robust_lam.mat', 'tot_mpssc_set', 'tot_mpssc0_set')
 
-% run MPSSC with various \rho values for robustness check
+% run MPSSC with various \rho values from the set [0.001,0.01, 0.1, 0.2, 0.5, 1, 2, 5,10]for robustness check.
 robust_generator_rhos
 save('Ting_robust_rho.mat', 'tot_mpssc_set', 'tot_mpssc0_set')
 
-% run MPSSC with various c values for robustness check
+% run MPSSC with various c values from the set [0.0001, 0.001,0.01, 0.1, 0.2, 0.5, 1] for robustness check.
 robust_generator_cs
 save('Ting_robust_c.mat', 'tot_mpssc_set', 'tot_mpssc0_set')
 
-% run MPSSC with various k values for robustness check
+% run MPSSC with various k values from the set [5, 10, ..., 35, 40] for robustness check.
 robust_generator_k
 save('Ting_robust_k.mat', 'tot_mpssc_set', 'tot_mpssc0_set')
 
