@@ -130,6 +130,8 @@ We provide MATLAB implementations of *MPSSC* in the MPSSC branch.
 
 * **Seyoung Park** and   **Hongyu Zhao**
 
+Department of Biostatistics, School of Public Health, Yale University
+
 
 ## License
 
