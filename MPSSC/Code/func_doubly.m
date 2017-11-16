@@ -1,5 +1,5 @@
 function [Kernels2, id]= func_doubly(X, k10);
-%% contruct multiple doubly stochastic similarity matrices using Gaussian kernels (Step 1)
+%% construct multiple doubly stochastic similarity matrices using Gaussian kernels (Step 1)
 %% input
 % x is the n by p sequence data
 % k10 is number of neighborhoods used in KNN: default is 10
