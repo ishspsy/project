@@ -1,0 +1,40 @@
+
+%% Description of codes in the subdirectory.
+
+
+clus_fin_update.m :  Proposed MPSSC algorithm using 10 neighbors in constructing KNN graph
+clus_fin_update_k.m :  MPSSC algorithm using kn neighbors in constructing KNN graph (used for robustness analysis)
+clus_fin_update_no_learning.m:  Performing proposed PSSC using 10 neighbors in KNN
+clus_fin_update_no_learning_kk.m:   Performing proposed PSSC with kk neighbors in KNN (used for robustness analysis)
+clus_fin_update_number.m:   Estimating the number of clusters
+clus_fin_update_two_step.m:  MPSSC without third step (for larger-scale data sets)
+clus_fin_update_two_step2.m:  MPSSC without third step (for larger-scale data sets) with kk neighbors in KNN (used for robustness analysis)
+clus_fin_update_two_step2_no_learning.m:  PSSC for larger-scale scRNA-seq data sets 
+clus_sim_update0_2.m:  ADMM algorithm used in Step 2 of MPSSC
+clus_sim_update2_2.m:  Step 2 of MPSSC; Obtain the intermediate target matrix P for MPSSC
+clus_sim_update0_3.m:  Step 3 of MPSSC; Obtain the target matrix P
+clus_sim_update2_2_no_learning.m:  Step 2 of PSSC; Obtain the intermediate target matrix P 
+clus_sim_update2_2_two.m:  Step 2 of MPSSC; Obtain the intermediate target matrix P.  Another output (P3) by l2 regularization is obtained for comparisons
+clus_sim_update2_2_two_no_learning.m:  Step 2 of PSSC for large-scale scRNA-seq data sets
+func_doubly.m:  Step 1 of MPSSC; construct multiple doubly stochastic similarity matrices using Gaussian kernels
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
