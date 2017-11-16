@@ -8,6 +8,7 @@
 
 %% NOTE: These are computational and memory-intensive parts, which were run on the computing cluster (6 CPUs, 800 GB of memory).
 
+addpath(genpath(pwd))
 
 
 %% Tasic
