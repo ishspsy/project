@@ -22,7 +22,7 @@ clus_sim_update0_3.m:  Obtain the final target matrix involving ADMM (Step 3)
 ### Example files
 Working_m_files/running_small_scRNA (Fig4,6).m: Generate all the results related to the six small-scale scRNA-seq data sets
 
-Working_m_files/running_large_scRNA (Fig5).m: Generate all the results related to the three large-scale scRNA-seq data sets
+Working_m_files/running_large_scRNA (Fig5).m: Generate all the results related to the three large-scale scRNA-seq data sets.
 These were run on the computing cluster (6 CPUs, 800 GB of memory).
 
 
