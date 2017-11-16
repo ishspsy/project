@@ -5,7 +5,8 @@ clear all
 
 %% obtain the target matrices
 pn_structure_place
-
+%% save('pn_structure.mat', 'Vi1','Vi2','Vn','V2n')
+load('pn_structure.mat')
 
 %% Figure 2
 clf;
