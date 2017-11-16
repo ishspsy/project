@@ -1,6 +1,6 @@
 
 function  [rep, P, Q, Gamma]=clus_sim_update0_3(CCC, lam2, eta, kernel_ini)  
-%% Step 3: Obtain the intermediate target matrix P
+%% Step 3: Obtain the target matrix P
 
 
 n=size(kernel_ini,1); 
