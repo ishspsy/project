@@ -1,5 +1,5 @@
 
-%% comparisions of the target matrices of different SC methods
+%% comparisons of the target matrices of different SC methods
 %% obtain the target matrices of the SC type methods
 
 
