@@ -20,6 +20,19 @@ clus_sim_update0_3.m:  Obtain the final target matrix involving ADMM (Step 3)
 
 
 ### Example files
+
+Please follow the links to reproduce the results of real scRNA-seq data sets
+
+-  [small-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_small_scRNA%20(Fig4%2C6).m)
+: Generate all the results related to the six small-scale scRNA-seq data sets
+
+-  [large-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_large_scRNA%20(Fig5).m)
+: Generate all the results related to the three large-scale scRNA-seq data sets. These were run on the computing cluster (6 CPUs, 800 GB of memory).
+
+
+
+
+
 Working_m_files/running_small_scRNA (Fig4,6).m: Generate all the results related to the six small-scale scRNA-seq data sets
 
 Working_m_files/running_large_scRNA (Fig5).m: Generate all the results related to the three large-scale scRNA-seq data sets.
@@ -68,15 +81,6 @@ ARI=RandIndex(clus_labs,true_labs)
 
 
 ```
-
-### Other examples
-
-Please follow the links to reproduce the results of real scRNA-seq data sets
-
--  [small-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_small_scRNA%20(Fig4%2C6).m)
-
--  [large-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_large_scRNA%20(Fig5).m)
-
 
 
 
