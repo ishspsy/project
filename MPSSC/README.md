@@ -8,15 +8,20 @@
 
 ### Main functions
 
-clus_fin_update.m:   Main *MPSSC* algorithm (with similarity learning) consisting of the three steps.
+[clus_fin_update.m](https://github.com/ishspsy/project/blob/master/MPSSC/Code/clus_fin_update.m)
+: Main *MPSSC* algorithm (with similarity learning) consisting of the three steps.
 
-clus_fin_update_no_learning.m:  Main *PSSC* algorithm (without similarity learning). 
+[clus_fin_update_no_learning.m](https://github.com/ishspsy/project/blob/master/MPSSC/Code/clus_fin_update_no_learning.m)
+: Main *PSSC* algorithm (without similarity learning). 
 
-func_doubly.m:  Contruct multiple doubly stochastic similarity matrices using Gaussian kernels (Step 1).
+[func_doubly.m](https://github.com/ishspsy/project/blob/master/MPSSC/Code/func_doubly.m)
+: Contruct multiple doubly stochastic similarity matrices using Gaussian kernels (Step 1).
 
-clus_sim_update2_2.m:  Obtain the intermediae target matrix involving ADMM (Step 2).
+[clus_sim_update2_2.m](https://github.com/ishspsy/project/blob/master/MPSSC/Code/clus_sim_update2_2.m)
+: Obtain the intermediae target matrix involving ADMM (Step 2).
 
-clus_sim_update0_3.m:  Obtain the final target matrix involving ADMM (Step 3)
+[clus_sim_update0_3.m](https://github.com/ishspsy/project/blob/master/MPSSC/Code/clus_sim_update0_3.m)
+: Obtain the final target matrix involving ADMM (Step 3).
 
 
 ### Example files
@@ -24,12 +29,13 @@ clus_sim_update0_3.m:  Obtain the final target matrix involving ADMM (Step 3)
 Please follow the links to reproduce the results of real scRNA-seq data sets
 
 -  [small-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_small_scRNA%20(Fig4%2C6).m)
-: Generate all the results related to the six small-scale scRNA-seq data sets
+: Generate all the results related to the six small-scale scRNA-seq data sets.
 
 -  [large-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_large_scRNA%20(Fig5).m)
 : Generate all the results related to the three large-scale scRNA-seq data sets. These were run on the computing cluster (6 CPUs, 800 GB of memory).
 
 -  [generating all figures](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files/Figure_generate)
+: Generate all figures presented in the manuscript.
 
 
 
