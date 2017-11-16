@@ -86,15 +86,15 @@ ARI=RandIndex(clus_labs,true_labs)
 
 ### Directory
 
-All the functions used in the proposed algorithm are located in the directory "**Code**".
+All the functions used in the proposed algorithm are located in the directory ["**Code**"](https://github.com/ishspsy/project/tree/master/MPSSC/Code).
 
-All the other important matlab functions are located in the directory "**Working_m_files**".
+All the other important matlab functions are located in the directory ["**Working_m_files**"](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files).
 
-**All the codes generating figures and results shown in the manuscript are located in the directory "Working_m_files/Figure_generate"**
+**All the codes generating figures and results shown in the manuscript are located in the directory ["Working_m_files/Figure_generate"**](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files/Figure_generate).
 
-All the resulting files (e.g. .MAT and .eps) are located in the directory "**Results_files**".
+All the resulting files (e.g. .MAT and .eps) are located in the directory ["**Results_files**"](https://github.com/ishspsy/project/tree/master/MPSSC/Results_files).
 
-The nine scRNA-seq data sets used in the manuscript are located in the directory "**Data**".
+The nine scRNA-seq data sets used in the manuscript are located in the directory ["**Data**"](https://github.com/ishspsy/project/tree/master/MPSSC/Data).
 
 
 
