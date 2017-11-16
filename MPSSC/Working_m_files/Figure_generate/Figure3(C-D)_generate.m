@@ -1,6 +1,7 @@
 %% generating plots for the simulation model 2
 %% Refer running_simulation2 (Fig3).m and running_simulation2 (Fig3).m for generating loading files
 
+addpath(genpath(pwd))
 
 % loading file; See running_simulation2 (Fig3).m for generating this file
 load('main_sim_plot_rng_200_3_missing1_1.mat')
