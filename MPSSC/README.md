@@ -100,13 +100,13 @@ The nine scRNA-seq data sets used in the manuscript are located in the directory
 
 The other directories:
 
-"SIMLR" includes all the files related to *SIMLR*.
+["SIMLR"](https://github.com/ishspsy/project/tree/master/MPSSC/SIMLR) includes all the files related to *SIMLR*.
 
-"SparseSC"  includes all the files related to Sparse spectral clustering (*SSC*).
+["SparseSC"](https://github.com/ishspsy/project/tree/master/MPSSC/SparseSC) includes all the files related to Sparse spectral clustering (*SSC*).
 
-"tSNE"  includes all the files related to *t-SNE*.
+["tSNE"](https://github.com/ishspsy/project/tree/master/MPSSC/tSNE) includes all the files related to *t-SNE*.
 
-"KPCA.1" includes the files related to kernel construction.
+["KPCA.1"](https://github.com/ishspsy/project/tree/master/MPSSC/KPCA.1) includes the files related to kernel construction.
 
 Specifically, the codes of *SIMLR* refers to https://github.com/BatzoglouLabSU/SIMLR, *SparseSC* refers to https://github.com/canyilu/LibADMM, *tSNE* refers to https://lvdmaaten.github.io/tsne/, and *KPCA.1* refers to
 https://arxiv.org/abs/1207.3538.
@@ -115,7 +115,7 @@ https://arxiv.org/abs/1207.3538.
 
 ## Example data sets
 
-The 9 example datasets are provided in the directory *Data_files*. 
+The 9 example datasets are provided in the directory [*Data*](https://github.com/ishspsy/project/tree/master/MPSSC/Data). 
 
 Specifically, the dataset of Data_Deng.mat refers to http://science.sciencemag.org/content/343/6167/193.
 
