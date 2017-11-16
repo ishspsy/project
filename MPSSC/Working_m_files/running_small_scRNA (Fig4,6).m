@@ -14,14 +14,24 @@ addpath(genpath(pwd))
 
 clear all
 load('Data_Ting.mat')
+
+% run the 8 clustering methods; each row of 'valtot' stands for the clusteirng method, NMI, Purity, and ARI, respectively.
 real_data_place
 save('Ting_results1102.mat','valtot')
+
+% run MPSSC with various \lambda values for robustness check
 robust_generator
 save('Ting_robust_lam.mat', 'tot_mpssc_set', 'tot_mpssc0_set')
+
+% run MPSSC with various \rho values for robustness check
 robust_generator_rhos
 save('Ting_robust_rho.mat', 'tot_mpssc_set', 'tot_mpssc0_set')
+
+% run MPSSC with various c values for robustness check
 robust_generator_cs
 save('Ting_robust_c.mat', 'tot_mpssc_set', 'tot_mpssc0_set')
+
+% run MPSSC with various k values for robustness check
 robust_generator_k
 save('Ting_robust_k.mat', 'tot_mpssc_set', 'tot_mpssc0_set')
 
