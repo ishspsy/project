@@ -1,5 +1,5 @@
 function [Kernels2, id]= func_reg(X);
-%% generate regular affinity matrices correspondng to Gaussian kernels.
+%% generate regular affinity matrices corresponding to Gaussian kernels.
 
 [n,p]=size(X); x=X;
 sigma_set=1:0.25:2;  k_set=10:2:30; 
