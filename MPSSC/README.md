@@ -69,11 +69,13 @@ ARI=RandIndex(clus_labs,true_labs)
 
 ```
 
-### Examples
+### Other examples
 
-Please follow the links to briefly walk you through the functions of *MPSSC*
+Please follow the links to briefly walk you through the applications of *MPSSC* to real scRNA-seq data sets
 
--   [Real data](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_small_scRNA%20(Fig4%2C6).m)
+-  [small-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_small_scRNA%20(Fig4%2C6).m)
+
+-  [large-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_large_scRNA%20(Fig5).m)
 
 
 
