@@ -1,0 +1,43 @@
+
+%% Description of codes in the subdirectory.
+
+
+Cal_NMI.m :  Compute NMI measure
+Contingency.m: Form contigency matrix for two vectors. Used for computing ARI
+RandIndex.m: Calculates ARI measure
+SK_normalize.m: SK algorithm used in obtaining doubly stochastic matrix (Step 1 of MPSSC)
+cal_new_clus.m: Computing clustering labels using k-means from the n by kk matrix FF
+calc2_nmis.m: Compute NMI and clustering labels based on obtained target matrix
+dist2.m: Calculates squared distance between two sets of points
+eig1.m: Compute the eigenvalues
+eig1_structure.m: Compute the eigenvectors used in visualization of data points
+func_Laplacian.m: Compute regular Laplacian matrix using Gaussian kernels
+func_reg.m: Generate regular affinity matrices corresponding to Gaussian kernels
+func_simlarity.m: Compute similarity matrix using single kernel
+litekmeans.m: K-means clustering, accelerated by matlab matrix operations
+mex_multipleK2.m: Computing multiple affinity matrix from Gaussian kernels
+multipleK.m: computing the proposed affinity matrices from Gaussian kernels
+projection.m: projection function used in Step2 of MPSSC
+purity.m: computing Purity between x and y labels
+tsne_p_bo.m: Performs symmetric t-SNE on affinity matrix P
+vline.m: Draws a vertical line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
