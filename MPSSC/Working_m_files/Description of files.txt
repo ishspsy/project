@@ -23,8 +23,8 @@ running_large_scRNA (Fig5).m
 running_simulation1 (Fig3).m
 running_simulation2 (Fig3).m
 running_small_scRNA (Fig4,6).m
-simulation_robust1 (Fig S1).m
-simulation_robust2 (Fig S1).m
+simulation_robust1 (Fig S2).m
+simulation_robust2 (Fig S2).m
 
 
 
