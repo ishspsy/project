@@ -29,14 +29,8 @@ Please follow the links to reproduce the results of real scRNA-seq data sets
 -  [large-scale scRNA-seq data sets](https://github.com/ishspsy/project/blob/master/MPSSC/Working_m_files/running_large_scRNA%20(Fig5).m)
 : Generate all the results related to the three large-scale scRNA-seq data sets. These were run on the computing cluster (6 CPUs, 800 GB of memory).
 
+-  [generating all figures](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files/Figure_generate)
 
-
-
-
-Working_m_files/running_small_scRNA (Fig4,6).m: Generate all the results related to the six small-scale scRNA-seq data sets
-
-Working_m_files/running_large_scRNA (Fig5).m: Generate all the results related to the three large-scale scRNA-seq data sets.
-These were run on the computing cluster (6 CPUs, 800 GB of memory).
 
 
 **Note** Most of the simulations and scRNA-seq applications were implemented on an Apple MacBook Pro (2.7 GHz, 8 GB of memory) using the MATLAB 2016b. However, certain computational or memory-intensive steps (e.g. larger-scale data sets) were run on the computing cluster (6 CPUs, 800 GB of memory).
