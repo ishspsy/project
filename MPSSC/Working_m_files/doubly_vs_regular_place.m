@@ -1,4 +1,4 @@
-%% the code for comparisions between doubly stochastic and regular affinity matrices
+%% the code for comparisons between doubly stochastic and regular affinity matrices
 
 rng(1028)
 
