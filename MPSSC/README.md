@@ -90,7 +90,7 @@ All the functions used in the proposed algorithm are located in the directory ["
 
 All the other important matlab functions are located in the directory ["**Working_m_files**"](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files).
 
-**All the codes generating figures and results shown in the manuscript are located in the directory ["Working_m_files/Figure_generate"**](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files/Figure_generate).
+**All the codes generating figures and results shown in the manuscript are located in the directory ["**Working_m_files/Figure_generate**"](https://github.com/ishspsy/project/tree/master/MPSSC/Working_m_files/Figure_generate).
 
 All the resulting files (e.g. .MAT and .eps) are located in the directory ["**Results_files**"](https://github.com/ishspsy/project/tree/master/MPSSC/Results_files).
 
