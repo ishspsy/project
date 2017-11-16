@@ -1,5 +1,6 @@
 %% running MPSSC and PSSC for Larger-scale data sets
 
+addpath(genpath(pwd))
 
 CCC=max(true_labs);
 X=in_X; Y=X;  [n,p]=size(X); N=n;
