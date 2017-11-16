@@ -32,7 +32,7 @@ These were run on the computing cluster (6 CPUs, 800 GB of memory).
 
 
 ```
-Example using Deng data set:
+%Example using Deng data set:
 
 clear all
 addpath(genpath(pwd))
@@ -42,8 +42,8 @@ addpath(genpath(pwd))
 load('Data_Deng.mat')
 
 % Note: one can use any data set that consists of in_X and true_labs, where in_X is an n by p gene 
-expression matrix and true_labs is the ground truth labels. Here n and p are number of cells and 
-genes, respectively.
+%expression matrix and true_labs is the ground truth labels. Here n and p are number of cells and 
+%genes, respectively.
 
 
 %% Penalty parameters. We suggest to use the following specification:
