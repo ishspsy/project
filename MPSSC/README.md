@@ -103,7 +103,10 @@ The other directories:
 
 "tSNE"  includes all the files related to *t-SNE*.
 
-Specifically, the codes of *SIMLR* refers to https://github.com/BatzoglouLabSU/SIMLR, *SparseSC* refers to https://github.com/canyilu/LibADMM, and *tSNE* refers to https://lvdmaaten.github.io/tsne/.
+"KPCA.1" includes the files related to kernel construction.
+
+Specifically, the codes of *SIMLR* refers to https://github.com/BatzoglouLabSU/SIMLR, *SparseSC* refers to https://github.com/canyilu/LibADMM, *tSNE* refers to https://lvdmaaten.github.io/tsne/, and *KPCA.1* refers to
+https://arxiv.org/abs/1207.3538.
 
 
 
