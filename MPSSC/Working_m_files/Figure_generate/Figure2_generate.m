@@ -1,5 +1,6 @@
 %% generating Figure 2
 
+addpath(genpath(pwd))
 
 clear all
 
