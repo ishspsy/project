@@ -1,5 +1,5 @@
 %% generate figures related to three larger-scale scRNA-seq data sets
-%% All the loading files can be generated in running_large_scRNA (Fig5).m
+%% All the loading files can be generated in the running_large_scRNA (Fig5).m
 
 addpath(genpath(pwd))
 %% Figure 5
