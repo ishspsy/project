@@ -1,0 +1,44 @@
+
+%% Description of codes in the subdirectory.
+
+
+Larger_MPSSC.m: running MPSSC and PSSC for Larger-scale data sets
+doubly_vs_regular_place.m: comparisons between doubly stochastic and regular affinity matrices
+eigen_gap_part.m: estimating the number of clusters
+pn_structure_place.m: comparisons of the target matrices of different SC methods
+real_data_place.m: runs the 8 clustering methods for small-scale scRNA-seq data sets
+real_data_place_large.m: runs the 6 clustering methods for large-scale data sets
+robust_generator.m: performs PSSC and MPSSC by changing \lambda for robustness test
+robust_generator_cs.m: performs PSSC and MPSSC by changing c for robustness test
+robust_generator_large_k.m: performs MPSSC by changing k for robustness test (large-scale data sets)
+robust_generator_large_rhos.m: performs MPSSC by changing \rho for large-scale data sets
+robust_generator_rhos.m: performs PSSC and MPSSC by changing \rho for robustness test
+simulation_model1.m: runs the six clustering methods for simulation model1
+simulation_model2.m: runs the six clustering methods for simulation model2
+
+
+%% The following files run clustering algorithms and generate output files to construct figures
+running_doubly_vs_regular (Fig1).m
+running_large_scRNA (Fig5).m
+running_simulation1 (Fig3).m
+running_simulation2 (Fig3).m
+running_small_scRNA (Fig4,6).m
+simulation_robust1 (Fig S1).m
+simulation_robust2 (Fig S1).m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
