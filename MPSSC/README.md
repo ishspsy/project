@@ -148,6 +148,10 @@ We provide MATLAB implementations of *MPSSC* in the MPSSC branch.
   Department of Biostatistics, School of Public Health, Yale University
 
 
+## Contact
+
+* seyoung.park@yale.edu
+
 ## License
 
 This project is licensed under the MIT License.
