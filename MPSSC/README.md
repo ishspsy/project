@@ -59,6 +59,8 @@ rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;
 [NMI, ~,clus_labs,~]=calc2_nmis(CCC, double(P),true_labs);   
 [NMI0, ~,clus_labs0,~]=calc2_nmis(CCC, double(P0),true_labs);   
 
+
+%% Compute performance measures
 % Compute Purity
 Purity=purity(CCC, clus_labs, true_labs)
 Purity0=purity(CCC, clus_labs0, true_labs)
@@ -68,6 +70,7 @@ ARI=RandIndex(clus_labs,true_labs)
 ARI0=RandIndex(clus_labs0,true_labs)
 
 
+%%% Final output %%%
 %% Performances (three measures) of MPSSC
 [NMI, Purity, ARI]
 
