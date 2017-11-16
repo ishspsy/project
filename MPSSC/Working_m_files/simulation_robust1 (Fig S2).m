@@ -1,4 +1,4 @@
-%% Robust test for simulation model 1
+%% Robust tests for simulation model 1
 
 addpath(genpath(pwd))
 
