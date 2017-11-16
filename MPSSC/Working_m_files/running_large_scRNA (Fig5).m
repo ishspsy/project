@@ -13,6 +13,7 @@
 %% Tasic
 clear all
 load('Data_Tasic.mat')
+in_X=double(in_X);  % the data of Tasic is single-type (due to size issue), thus need to be transferred to double type.
 
 real_data_place_large
 save('realdata10_tasic_except.mat','valtot')
