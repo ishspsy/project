@@ -4,6 +4,9 @@
 
 %% Figure 3.(A)-(B)
 
+addpath(genpath(pwd))
+
+
 %% loading file (See running_simulation1 (Fig3).m for generating this file).
 load('main_sim_plot_rng_150_001.mat')
 
