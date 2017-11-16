@@ -53,31 +53,25 @@ rho=0.2; lam=0.0001; lam2=lam; eta=1; c=0.1;
 %% Run MPSSC and obtain the target matrix P
 [P] = clus_fin_update(rho, lam, lam2, eta, c, in_X, true_labs); 
 
-%% Run PSSC and obtain the target matrix P0
-[P0] = clus_fin_update_no_learning(rho, lam, lam2, eta, c, in_X, true_labs);
-
-%% Obtain clustering labels clus_labs (MPSSC) and clus_labs0 (PSSC), and compute NMI measure:
+%% Obtain clustering labels clus_labs and compute NMI measure:
 [NMI, ~,clus_labs,~]=calc2_nmis(max(true_labs), double(P),true_labs);   
-[NMI0, ~,clus_labs0,~]=calc2_nmis(max(true_labs), double(P0),true_labs);   
-
 
 %% Compute performance measures
 % Compute Purity
 Purity=purity(max(true_labs), clus_labs, true_labs)
-Purity0=purity(max(true_labs), clus_labs0, true_labs)
 
 % Compute ARI
 ARI=RandIndex(clus_labs,true_labs)
-ARI0=RandIndex(clus_labs0,true_labs)
 
-
-%%% Final output %%%
-%% Performances (three measures) of MPSSC
+%%% Final output: Performances (three measures) of MPSSC
 [NMI, Purity, ARI]
 
-%% Performances (three measures) of PSSC
-[NMI0, Purity0, ARI0]
 
+%% Visualization of data
+ydata = tsne_p_bo(P);  
+
+clf
+gscatter(ydata(:,1), ydata(:,2), true_labs,'brgmk','.xo>+^<',7,'off') 
 
 ```
 
