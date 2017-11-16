@@ -90,7 +90,7 @@ All the other important matlab functions are located in the directory "Working_m
 
 All the resulting files (e.g. .MAT and .eps) are located in the directory "Results_files".
 
-The nine scRNA-seq data sets used in the manuscript are located in the directory "Data_files".
+The nine scRNA-seq data sets used in the manuscript are located in the directory "Data".
 
 
 
