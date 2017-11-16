@@ -1,4 +1,4 @@
-%% runs the six clusteirng methods for simulation model1
+%% runs the six clustering methods for simulation model1
 
 
 rng(150)
