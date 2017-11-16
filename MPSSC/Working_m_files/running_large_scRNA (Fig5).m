@@ -26,6 +26,7 @@ Larger_MPSSC
 save('Tasic_MPSSC.mat', 'tot_mpssc','tot_mpssc2','toc_mpssc','toc_mpssc2')
 
 
+% Note: each robustness check part takes about 30 minutes as it considers various regularization parameters cases.
 % run MPSSC with various \lambda values from the set [0.00001, 0.00005, 0.0001, 0.0002, 0.0005, 0.001, 0.01, 0.1] for
 % robustness check
 robust_generator_large
