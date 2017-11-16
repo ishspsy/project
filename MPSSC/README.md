@@ -143,9 +143,9 @@ We provide MATLAB implementations of *MPSSC* in the MPSSC branch.
 
 ## Authors
 
-* **Seyoung Park** and   **Hongyu Zhao**
+* [**Seyoung Park**](http://people.yale.edu/search/seyoung_park.profile) and   [**Hongyu Zhao**](https://publichealth.yale.edu/biostat/people/hongyu_zhao.profile)
 
-Department of Biostatistics, School of Public Health, Yale University
+  Department of Biostatistics, School of Public Health, Yale University
 
 
 ## License
