@@ -20,9 +20,10 @@ clus_sim_update0_3.m:  Obtain the final target matrix involving ADMM (Step 3)
 
 
 ### Example files
-run_real_data_results.m: Example (small-scale scRNA-seq data sets)
+Working_m_files/running_small_scRNA (Fig4,6).m: Generate all the results related to the six small-scale scRNA-seq data sets
 
-run_real_data_results_large.m: Example (large-scale scRNA-seq data sets)
+Working_m_files/running_large_scRNA (Fig5).m: Generate all the results related to the three large-scale scRNA-seq data sets
+These were run on the computing cluster (6 CPUs, 800 GB of memory).
 
 
 **Note** Most of the simulations and scRNA-seq applications were implemented on an Apple MacBook Pro (2.7 GHz, 8 GB of memory) using the MATLAB 2016b. However, certain computational or memory-intensive steps (e.g. larger-scale data sets) were run on the computing cluster (6 CPUs, 800 GB of memory).
@@ -31,7 +32,7 @@ run_real_data_results_large.m: Example (large-scale scRNA-seq data sets)
 
 
 ```
-Example:
+Example using Deng data set:
 
 clear all
 addpath(genpath(pwd))
