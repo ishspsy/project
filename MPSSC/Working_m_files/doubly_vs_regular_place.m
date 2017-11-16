@@ -1,4 +1,5 @@
 %% the code for comparisons between doubly stochastic and regular affinity matrices
+addpath(genpath(pwd))
 
 rng(1028)
 
