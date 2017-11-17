@@ -1,11 +1,12 @@
 
 %% Description of codes in the subdirectory.
+%% SIMLR, Sparse SC, and t-SNE installation are required to run these m files.
 
 
-Larger_MPSSC.m: running MPSSC and PSSC for Larger-scale data sets
-doubly_vs_regular_place.m: comparisons between doubly stochastic and regular affinity matrices
+Larger_MPSSC.m: runs MPSSC and PSSC for larger-scale data sets
+doubly_vs_regular_place.m: comparisons of performances between doubly stochastic and regular affinity matrices
 eigen_gap_part.m: estimating the number of clusters
-pn_structure_place.m: comparisons of the target matrices of different SC methods
+pn_structure_place.m: comparisons of the target matrices for different SC methods
 real_data_place.m: runs the 8 clustering methods for small-scale scRNA-seq data sets
 real_data_place_large.m: runs the 6 clustering methods for large-scale data sets
 robust_generator.m: performs PSSC and MPSSC by changing \lambda for robustness test
