@@ -1,5 +1,5 @@
 %% generating plots related to simulation model 1
-%% Refer running_simulation1 (Fig3).m for generating loading files
+%% Refer running_simulation1 (Fig3).m to generate the loading files used here.
 
 
 %% Figure 3.(A)-(B)
@@ -7,7 +7,7 @@
 addpath(genpath(pwd))
 
 
-%% loading file (See running_simulation1 (Fig3).m for generating this file).
+%% loading file (See running_simulation1 (Fig3).m to generate the below mat file).
 load('main_sim_plot_rng_150_001.mat')
 
 
@@ -54,7 +54,7 @@ htext.FontSize=20;
 set(gca,'FontSize', 14);
 
 
-%% loading file (See running_simulation1 (Fig3).m for generating this file).
+%% loading file (See running_simulation1 (Fig3).m to generate the below mat file).
 load('main_sim_plot_rng_150_0006.mat')     
 avg_perf=0;  sqr_perf=0;
 for ii=1:50
