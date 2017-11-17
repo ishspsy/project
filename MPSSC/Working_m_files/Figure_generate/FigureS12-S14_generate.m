@@ -1,5 +1,8 @@
 %% generating plots about robustness of MPSSC for the larger-scale data sets.
 %% All the loading files can be generated in running_large_scRNA (Fig5).m
+%% SIMLR, Sparse SC, and t-SNE installation are required
+
+
 
 clear all
 addpath(genpath(pwd))
