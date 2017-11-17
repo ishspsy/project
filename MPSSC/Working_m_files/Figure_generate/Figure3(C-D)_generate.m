@@ -1,9 +1,9 @@
 %% generating plots for the simulation model 2
-%% Refer running_simulation2 (Fig3).m and running_simulation2 (Fig3).m for generating loading files
+%% Refer running_simulation2 (Fig3).m and running_simulation2 (Fig3).m to generate mat files used here.
 
 addpath(genpath(pwd))
 
-% loading file; See running_simulation2 (Fig3).m for generating this file
+% loading file; See running_simulation2 (Fig3).m to generate the following mat file
 load('main_sim_plot_rng_200_3_missing1_1.mat')
 ind_method=1:6;  
 avg_perf=0;  sqr_perf=0;
@@ -48,7 +48,7 @@ set(gca,'FontSize', 14);
 
 
 
-% loading file; See running_simulation2 (Fig3).m for generating this file
+% loading file; See running_simulation2 (Fig3).m  to generate the following mat file
 load('main_sim_plot_rng_200_3_missing2_1.mat')
 avg_perf=0;  sqr_perf=0;
 for ii=1:50
