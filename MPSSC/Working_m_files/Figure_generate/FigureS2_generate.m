@@ -1,5 +1,7 @@
 %% generating Figure S2
 %% Refer simulation_robust2 (Fig S2).m and simulation_robust1 (Fig S2).m to generate mat files used here.
+%% SIMLR, Sparse SC, and t-SNE installation are required
+
 
 addpath(genpath(pwd))
 
