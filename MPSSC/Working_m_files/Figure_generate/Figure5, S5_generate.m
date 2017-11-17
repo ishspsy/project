@@ -1,5 +1,7 @@
 %% generate figures related to three larger-scale scRNA-seq data sets
 %% All the loading files can be regenerated in the running_large_scRNA (Fig5).m
+%% SIMLR, Sparse SC, and t-SNE installation are required
+
 
 addpath(genpath(pwd))
 %% Figure 5
