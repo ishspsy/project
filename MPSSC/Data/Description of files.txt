@@ -1,7 +1,8 @@
 
 %% Description of files in the subdirectory.
 
-The 9 example datasets are provided in the directory Data_files.
+The 9 scRNA-seq data sets are provided in the directory Data. 
+For details of these data sets, see Supplementary materials of the manuscript.
 
 
 
