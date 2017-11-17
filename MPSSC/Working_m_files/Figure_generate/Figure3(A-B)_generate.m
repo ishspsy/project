@@ -1,6 +1,6 @@
 %% generating plots related to simulation model 1
 %% Refer running_simulation1 (Fig3).m to generate the loading files used here.
-%% SIMLR and t-SNE installation are required
+%% SIMLR, Sparse SC, and t-SNE installation are required
  
 
 %% Figure 3.(A)-(B)
