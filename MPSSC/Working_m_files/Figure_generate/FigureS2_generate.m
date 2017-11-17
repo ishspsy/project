@@ -1,9 +1,9 @@
 %% generating Figure S2
-%% Refer simulation_robust2 (Fig S2).m and simulation_robust1 (Fig S2).m
+%% Refer simulation_robust2 (Fig S2).m and simulation_robust1 (Fig S2).m to generate mat files used here.
 
 addpath(genpath(pwd))
 
-% loading files (See simulation_robust2 (Fig S2).m  for generating this file)
+% loading files (See simulation_robust2 (Fig S2).m  to generate the below mat file)
 load('robust_mcase2.mat')
 perf_summary=zeros(4,4,5); perf_std=zeros(4,4,5);
     for ii=1:4
@@ -51,7 +51,7 @@ kn_set=5:5:80;
 rho_set=[0.01, 0.02, 0.04, 0.1, 0.2, 0.4, 1, 2, 4]; 
 
 
-% loading files (See simulation_robust1 (Fig S2).m  for generating this file)
+% loading files (See simulation_robust1 (Fig S2).m  to generate the below mat file)
 load('robust_E_mcase2.mat')
 
 perf_summary=zeros(length(c_set),length(kn_set)); perf_std=perf_summary;
