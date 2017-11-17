@@ -1,10 +1,11 @@
-%% generating Figure 2
+%% generating Figure 2 in the manuscript
+% The target matrices structure
 
 addpath(genpath(pwd))
 
 clear all
 
-%% obtain the target matrices
+%% obtain the target matrices by running below code
 pn_structure_place
 %% save('pn_structure.mat', 'Vi1','Vi2','Vn','V2n')
 load('pn_structure.mat')
