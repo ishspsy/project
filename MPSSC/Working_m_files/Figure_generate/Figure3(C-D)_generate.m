@@ -1,5 +1,6 @@
 %% generating plots for the simulation model 2
 %% Refer running_simulation2 (Fig3).m and running_simulation2 (Fig3).m to generate mat files used here.
+%% SIMLR, Sparse SC, and t-SNE installation are required
 
 addpath(genpath(pwd))
 
