@@ -18,7 +18,7 @@ simulation_model1.m: runs the six clustering methods for simulation model1
 simulation_model2.m: runs the six clustering methods for simulation model2
 
 
-%% The following files run clustering algorithms and generate output files to construct figures
+%% The following files generate output mat files that will generate figures presented in the manuscript.
 running_doubly_vs_regular (Fig1).m
 running_large_scRNA (Fig5).m
 running_simulation1 (Fig3).m
